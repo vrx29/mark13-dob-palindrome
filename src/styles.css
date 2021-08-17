@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.header {
+  height: 100vh;
+  background-color: #fbfefb;
+  display: flex;
+}
+
+.left {
+  flex-grow: 1;
+  padding: 5rem 8rem;
+}
+
+.left img {
+  height: 100%;
+}
+
+.right {
+  flex-grow: 1;
+  padding: 10rem 5rem;
+}
+
+.data {
+  margin-bottom: 3rem;
+}
+.data p {
+  margin-top: 1rem;
+  color: #284b63;
+}
+.action {
+  margin-top: 2rem;
+}
+
+input {
+  height: 48px;
+  width: 200px;
+  padding: 0 20px;
+  border-radius: 10rem;
+  border: transparent;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0px 0px 2px #cdddf5;
+}
+
+button {
+  margin-left: 10px;
+  height: 48px;
+  width: 48px;
+  border-radius: 10rem;
+  border: transparent;
+  background-color: #fb5607;
+  color: #fff;
+  font-weight: bold;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+button:focus {
+  outline: none;
+  box-shadow: 0px 0px 2px #cdddf5;
+}
+
+.output {
+  margin-top: 2rem;
+}
+
+.output h4 {
+  color: #2d2d34;
+}
